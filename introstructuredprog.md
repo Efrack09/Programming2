@@ -1,5 +1,6 @@
 # Definitions <h1>
-=======================================================
+
   
-Benjamin Barona:_ _
-Efrain Matu: _https://github.com/Efrack09_
+[Benjamin Barona] (https://github.com/benjamin-bar)
+
+[Efrain Matu] (https://github.com/Efrack09)
