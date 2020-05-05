@@ -76,6 +76,15 @@ Different programming languages provide different set of reserved keywords, but 
     count = 10;
 
     printf( "Value of count = %d\n", count);
+#### _Example_
+	int main()
+	{
+	   int x, y, total;
+	   x = 10, y = 20;
+	   total = x + y;
+	   printf ("Total = %d \n", total);
+	}
+	
 ## Types of data
 ### Primitive Data
 Primitive data types are the basic units of a langauge; each primitive value is a single datum and holds that datum directly. We have seen examples of numbers and strings these are a the most basic primitive data types. They are simple and can hold text messages, frame numbers, counters, etc.. The primitive data types that ActionScript supports are:
