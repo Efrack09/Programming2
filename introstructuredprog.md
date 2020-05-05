@@ -2,7 +2,7 @@
 ## Identifiers 
 In programming languages, identifiers are used for identification purposes. Or in other words, identifiers are the user-defined name of the program components. In Go language, an identifier can be a variable name, function name, constant, statement labels, package name, or types.
 
-## _Example_
+### _Example_
     package main
     import "fmt"
 
@@ -27,6 +27,10 @@ name: Name of the variable
 + Keywords is not allowed to use as an identifier name.
 
 + There is no limit on the length of the name of the identifier, but it is advisable to use an optimum length of 4 – 15 letters only.
+## Variables
+Variables are the names you give to computer memory locations which are used to store values in a computer program.
+
+For example, assume you want to store two values 10 and 20 in your program and at a later stage, you want to use these two values. Let's see how you will do it. Here are the following three simple steps
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
