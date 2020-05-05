@@ -66,9 +66,10 @@ switch | typef | union
 unsigned | void | volatile
 while | packed |
 
-Markdown | Less | Pretty
-Markdown | Less | Pretty
-Markdown | Less | Pretty
+| auto       | else         | l0ng  |
+| break      | enum | register |
+| case      | extern     |  typedef |
+| char | float     |    short |
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
