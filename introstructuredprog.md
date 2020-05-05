@@ -52,7 +52,7 @@ Named constants are values where a name is defined to be used instead of a liter
 + The number of lives available for the player
 + The amount of time allowed for a level in a game
 ## Reserved Words
-auto|else|long|	switch
+auto | else | long |	switch
 break |	enum | register | typedef
 case |	extern|	return	| union
 char |	float |	short |	unsigned
