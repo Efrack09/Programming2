@@ -132,10 +132,20 @@ The following table shows all the logical operators supported by the C language.
 | Operator	| Description | Example |
 | ------------- |:-------------:| -----:|
 | && | Called Logical AND operator. If both the operands are non-zero, then condition becomes true. | (A && B) is false. |
-| "|" | Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true. | (A || B) is true. |
+| Vertical bar | Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true. | (A || B) is true. |
 | ! | 	Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | !(A && B) is true. |
 
 ## Relationship
+The relational operators are often used to create a test expression that controls program flow. This type of expression is also known as a Boolean expression because they create a Boolean answer or value when evaluated. There are six common relational operators that give a Boolean value by comparing (showing the relationship) between two operands. If the operands are of different data types, implicit promotion occurs to convert the operands to the same data type.
+
+| Operator | Meaning |    
+| <	| less than |
+| >	| greater than |
+| <=	| less than or equal to |
+| >=	| greater than or equal to |
+| ==	| equality (equal to) |
+| != or <>	| inequality (not equal to) |
+
 [Benjamin Barona](https://github.com/benjamin-bar)
 
 [Efrain Matu](https://github.com/Efrack09)
