@@ -1,4 +1,5 @@
 # Introduction to Structured Programming <h1>
+## _Data representation_
 ## Identifiers 
 In programming languages, identifiers are used for identification purposes. Or in other words, identifiers are the user-defined name of the program components. In Go language, an identifier can be a variable name, function name, constant, statement labels, package name, or types.
 #### _Example_
@@ -68,7 +69,6 @@ Different programming languages provide different set of reserved keywords, but 
 | while | packed | double |
 
 #### _Example_
-    Live Demo
     #include <stdio.h>
 
     int main() {
@@ -90,7 +90,7 @@ Using composite data, we can manage multiple pieces of related data as a single 
 + Object.
 + Movie clip.
 + Functions.
-### Diferences
+### Diferences, memory and range of values 
 + When Primitive data is copied to a variable, that variable gets it's own unique copy of the data, stored separately in memory. We say that primitive data is copied by value because the data's value is stored in the memory location allotted to the variable.
 + When Composite data is copied to a variable, only a reference to the data is stored in the variable's memory slot The reference tells the interpreter where the actual data is kept. We say that composite data is copied by reference.
 + If two variables contain data that is primitive they compare by value. This means that if they both contain the same values they are equal.
@@ -98,6 +98,17 @@ Using composite data, we can manage multiple pieces of related data as a single 
 + When we pass primitive data as an argument to a function, the function receives a copy of the data, not the original. Changes made to an argument in the function have no effect on the original argument outside the function. Primitive data is passed by value.
 + When we pass composite data as an argument to a function, the function receives a reference that points to the original argument.  
 + Altering the argument affects the original data and therefore affects other variables that point to the same data, even outside the function. Composite data is passed by reference.
+## Data type conversion
+In computer science, type conversion or typecasting refers to changing an entity of one datatype into another. There are two types of conversion: implicit and explicit. The term for implicit type conversion is coercion. Explicit type conversion in some specific way is known as casting. Explicit type conversion can also be achieved with separately defined conversion routines such as an overloaded object constructor.
+Implicit type conversion, also known as coercion, is an automatic type conversion by the compiler. Some languages allow, or even require compilers to provide coercion.
+In a mixed type expression, a subtype s will be converted into a supertype t or some subtypes s1, s2, ... will be converted to a supertype t (maybe none of the si is of type t) at runtime so that the program will run correctly.
+#### _Example_
+    double  d;
+    long    l;
+    int     i;
+    if (d > i)      d = i;
+    if (i > l)      l = i;
+    if (d == l)     d *= 2;
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
