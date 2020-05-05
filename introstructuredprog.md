@@ -39,6 +39,18 @@ Creating variables is also called declaring variables in C programming. Differen
     int a;
     int b;
     }
+The above program creates two variables to reserve two memory locations with names a and b. We created these variables using int keyword to specify variable data type which means we want to store integer values in these two variables. Similarly, you can create variables to store long, float, char or any other data type.
+## Constants
+Data values that stay the same every time a program is executed are known as constants. Constants are not expected to change.
+
+Literal constants are actual values fixed into the source code. An example of this might be the character string "hello world". The data value "hello world" has been fixed into the code.
+
+Named constants are values where a name is defined to be used instead of a literal constant. An example of this might be stating that the 'starting level' of a game is always referred to as 1.
+
+#### _Example_
++ The unit of gravity
++ The number of lives available for the player
++ The amount of time allowed for a level in a game
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
