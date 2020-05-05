@@ -113,28 +113,52 @@ In a mixed type expression, a subtype s will be converted into a supertype t or 
 ## Conditional
 An operator in a programming language is a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result. This chapter will explain the concept of operators and it will take you through the important arithmetic and relational operators available in C, Java, and Python.
 
-Computer programs are widely used for mathematical calculations. We can write a computer program which can do simple calculation like adding two numbers (2 + 3) and we can also write a program, which can solve a complex equation like P(x) = x4 + 7x3 - 5x + 9. If you have been even a poor student, you must be aware that in first expression 2 and 3 are operands and + is an operator. Similar concepts exist in Computer Programming.
-#### Example with 10 and 20
++ Conditional operators return one value if condition is true and returns another value is condition is false.
++ This operator is also called as ternary operator.
++ In above example, if A is greater than 100, 0 is returned else 1 is returned. This is equal to if else conditional statements.
+#### Example 
+	#include <stdio.h>
 
-| Operator       | Description           | Example  |
-| ------------- |:-------------:| -----:|
-| +    | Adds two operands | A + B will give 30 |
-| -     | Multiplies both operands |   A - B will give -10 |
-| * | Divides numerator by de-numerator |    A * B will give 200 |
-| / | Divides numerator by de-numerator | B / A will give 2 | 
-| % | This gives remainder of an integer division | B % A will give 0 |
+	int main()
+	{
+	   int x=1, y ;
+	   y = ( x ==1 ? 2 : 0 ) ;
+	   printf("x value is %d\n", x);
+	   printf("y value is %d", y);
+	}
 
 ## Logical
 Logical operators are very important in any programming language and they help us take decisions based on certain conditions. Suppose we want to combine the result of two conditions, then logical AND and OR logical operators help us in producing the final result.
 
 The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0.
-#### Example
+
 | Operator	| Description | Example |
 | ------------- |:-------------:| -----:|
 | && | Called Logical AND operator. If both the operands are non-zero, then condition becomes true. | (A && B) is false. |
 | Vertical bar | Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true. | (A || B) is true. |
 | ! | 	Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | !(A && B) is true. |
 
+#### _Example_
+	#include <stdio.h>
+
+	int main() {
+	   int a = 1;
+	   int b = 0;
+
+	   if ( a && b ) {
+
+	      printf("This will never print because condition is false\n" );
+	   }
+	   if ( a || b ) {
+
+	      printf("This will be printed print because condition is true\n" );
+	   }
+	   if ( !(a && b) ) {
+
+	      printf("This will be printed print because condition is true\n" );
+	   }
+	}
+	
 ## Relationship
 The relational operators are often used to create a test expression that controls program flow. This type of expression is also known as a Boolean expression because they create a Boolean answer or value when evaluated. There are six common relational operators that give a Boolean value by comparing (showing the relationship) between two operands. If the operands are of different data types, implicit promotion occurs to convert the operands to the same data type.
 
@@ -148,25 +172,42 @@ The relational operators are often used to create a test expression that control
 | != or <>	| inequality (not equal to) |
 
 #### _Example_
-#include <stdio.h>
+	#include <stdio.h>
 
-int main() {
-   int a = 1;
-   int b = 0;
+	int main() {
+	   int a, b;
 
-   if ( a && b ) {
-	
-      printf("This will never print because condition is false\n" );
-   }
-   if ( a || b ) {
-	
-      printf("This will be printed print because condition is true\n" );
-   }
-   if ( !(a && b) ) {
-	
-      printf("This will be printed print because condition is true\n" );
-   }
-}
+	   a = 10;
+	   b = 20;
+
+	   /* Here we check whether a is equal to 10 or not */
+	   if( a == 10 ) {
+
+	      /* if a is equal to 10 then this body will be executed */
+	      printf( "a is equal to 10\n");
+	   }
+
+	   /* Here we check whether b is equal to 10 or not */
+	   if( b == 10 ) {
+
+	      /* if b is equal to 10 then this body will be executed */
+	      printf( "b is equal to 10\n");
+	   }
+
+	   /* Here we check if a is less b than or not */
+	   if( a < b ) {
+
+	      /* if a is less than b then this body will be executed */
+	      printf( "a is less than b\n");
+	   }
+
+	   /* Here we check whether a and b are not equal */
+	   if( a != b ) {
+
+	      /* if a is not equal to b then this body will be executed */
+	      printf( "a is not equal to b\n");
+	   }
+	}	
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
