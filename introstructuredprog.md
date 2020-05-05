@@ -43,7 +43,7 @@ The above program creates two variables to reserve two memory locations with nam
 ## Constants
 Data values that stay the same every time a program is executed are known as constants. Constants are not expected to change.
 
-Literal constants are actual values fixed into the source code. An example of this might be the character string "hello world". The data value "hello world" has been fixed into the code.
+_Literal constants_ are actual values fixed into the source code. An example of this might be the character string "hello world". The data value "hello world" has been fixed into the code.
 
 Named constants are values where a name is defined to be used instead of a literal constant. An example of this might be stating that the 'starting level' of a game is always referred to as 1.
 
@@ -51,7 +51,16 @@ Named constants are values where a name is defined to be used instead of a liter
 + The unit of gravity
 + The number of lives available for the player
 + The amount of time allowed for a level in a game
-
+## Reserved Words
+auto|else|long|	switch
+break|	enum|	register|	typedef
+case|	extern|	return	|union
+char|	float|	short|	unsigned
+const|	for	signed	|void
+continue|	goto	|sizeof|	volatile
+default|	if|	static|	while
+do|	int|	struct|	_Packed
+double|
 [Benjamin Barona](https://github.com/benjamin-bar)
 
 [Efrain Matu](https://github.com/Efrack09)
