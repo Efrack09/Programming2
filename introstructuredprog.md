@@ -124,6 +124,18 @@ Computer programs are widely used for mathematical calculations. We can write a 
 | / | Divides numerator by de-numerator | B / A will give 2 | 
 | % | This gives remainder of an integer division | B % A will give 0 |
 
+## Logical
+Logical operators are very important in any programming language and they help us take decisions based on certain conditions. Suppose we want to combine the result of two conditions, then logical AND and OR logical operators help us in producing the final result.
+
+The following table shows all the logical operators supported by the C language. Assume variable A holds 1 and variable B holds 0.
+#### Example
+| Operator	| Description | Example |
+| ------------- |:-------------:| -----:|
+| && | Called Logical AND operator. If both the operands are non-zero, then condition becomes true. | (A && B) is false. |
+| || | Called Logical OR Operator. If any of the two operands is non-zero, then condition becomes true. | (A || B) is true. |
+| ! | 	Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | !(A && B) is true. |
+
+## Relationship
 [Benjamin Barona](https://github.com/benjamin-bar)
 
 [Efrain Matu](https://github.com/Efrack09)
