@@ -65,7 +65,39 @@ Different programming languages provide different set of reserved keywords, but 
 | do | int | struct | 
 | switch | typef | union |
 | unsigned | void | volatile |
-| while | packed | |
+| while | packed | double |
+
+#### _Example_
+    Live Demo
+    #include <stdio.h>
+
+    int main() {
+    int count;
+    count = 10;
+
+    printf( "Value of count = %d\n", count);
+## Types of data
+### Primitive Data
+Primitive data types are the basic units of a langauge; each primitive value is a single datum and holds that datum directly. We have seen examples of numbers and strings these are a the most basic primitive data types. They are simple and can hold text messages, frame numbers, counters, etc.. The primitive data types that ActionScript supports are:
++ Number.
++ String.
++ Boolean.
++ Undefined.
++ Null.
+### Composite Data
+Using composite data, we can manage multiple pieces of related data as a single datum. For example if you wanted to store information about a person you could store there date of birth, sex, address etc. as single variables but then when you wanted to add another person you would have to remember to create all the variables but with slightly different names. ASs the number of people increased so would the complexity of your naming and the relationship between the variables would be lost. In ActionScript you could create an object called person which had properties to store the date of birth, sex, address etc, you would then create instances of that object. The composite data types that ActionScript supports are:
++ Array.
++ Object.
++ Movie clip.
++ Functions.
+### Diferences
++ When Primitive data is copied to a variable, that variable gets it's own unique copy of the data, stored separately in memory. We say that primitive data is copied by value because the data's value is stored in the memory location allotted to the variable.
++ When Composite data is copied to a variable, only a reference to the data is stored in the variable's memory slot The reference tells the interpreter where the actual data is kept. We say that composite data is copied by reference.
++ If two variables contain data that is primitive they compare by value. This means that if they both contain the same values they are equal.
++ If two variables contain data that is composite they compare by reference. This means that they can only be equal if they refer to the same object.
++ When we pass primitive data as an argument to a function, the function receives a copy of the data, not the original. Changes made to an argument in the function have no effect on the original argument outside the function. Primitive data is passed by value.
++ When we pass composite data as an argument to a function, the function receives a reference that points to the original argument.  
++ Altering the argument affects the original data and therefore affects other variables that point to the same data, even outside the function. Composite data is passed by reference.
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
