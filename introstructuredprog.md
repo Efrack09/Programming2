@@ -53,14 +53,15 @@ Named constants are values where a name is defined to be used instead of a liter
 + The amount of time allowed for a level in a game
 ## Reserved Words
 auto|else|long|	switch
-break|	enum|	register|	typedef
-case|	extern|	return	|union
-char|	float|	short|	unsigned
-const|	for	signed	|void
-continue|	goto	|sizeof|	volatile
-default|	if|	static|	while
-do|	int|	struct|	_Packed
-double|
+break |	enum | register | typedef
+case |	extern|	return	| union
+char |	float |	short |	unsigned
+const |	for | signed	| void
+continue |	goto	| sizeof |	volatile
+default |	if |	static |	while
+do |	int |	struct |	_Packed
+double |
+
 [Benjamin Barona](https://github.com/benjamin-bar)
 
 [Efrain Matu](https://github.com/Efrack09)
