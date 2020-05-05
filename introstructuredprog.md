@@ -138,7 +138,8 @@ The following table shows all the logical operators supported by the C language.
 ## Relationship
 The relational operators are often used to create a test expression that controls program flow. This type of expression is also known as a Boolean expression because they create a Boolean answer or value when evaluated. There are six common relational operators that give a Boolean value by comparing (showing the relationship) between two operands. If the operands are of different data types, implicit promotion occurs to convert the operands to the same data type.
 
-| Operator | Meaning |    
+| Operator | Meaning | 
+| ------------- |:-------------:| 
 | <	| less than |
 | >	| greater than |
 | <=	| less than or equal to |
