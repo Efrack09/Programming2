@@ -1,5 +1,5 @@
-## Introduction to Structured Programming <h1>
-# _Identifiers_  
+# Introduction to Structured Programming <h1>
+## Identifiers 
 In programming languages, identifiers are used for identification purposes. Or in other words, identifiers are the user-defined name of the program components. In Go language, an identifier can be a variable name, function name, constant, statement labels, package name, or types.
 
 # _Example_
