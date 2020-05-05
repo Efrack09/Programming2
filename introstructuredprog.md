@@ -61,6 +61,10 @@ continue |	goto	| sizeof |	volatile
 default |	if |	static |	while 
 do |	int |	struct |	_Packed 
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
