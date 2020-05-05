@@ -54,23 +54,18 @@ Named constants are values where a name is defined to be used instead of a liter
 ## Reserved Words
 Different programming languages provide different set of reserved keywords, but there is one important & common rule in all the programming languages that we cannot use a reserved keyword to name our variables, which means we cannot name our variable like int or float rather these keywords can only be used to specify a variable data type.
 
-auto | else | long | 
-break | enum | register 
-case | extern | register 
-char | floar | short 
-const | for | signed 
-continue | goto | sizeof 
-default | if | static 
-do | int | struct | 
-switch | typef | union
-unsigned | void | volatile
-while | packed |
-
-| auto       | else         | l0ng  |
+| auto       | else         | long  |
 | ------------- |:-------------:| -----:|
 | break      | enum | register |
 | case      | extern     |  typedef |
 | char | float     |    short |
+| const | for | signed |
+| continue | goto | sizeof |
+| default | if | static |
+| do | int | struct | 
+| switch | typef | union |
+| unsigned | void | volatile |
+| while | packed | |
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
