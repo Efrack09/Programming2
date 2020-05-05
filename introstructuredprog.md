@@ -218,6 +218,36 @@ The relational operators are often used to create a test expression that control
 	   }
 	}	
 
+## Input and Output 
+The C language is accompanied by a collection of library functions which includes a  number of input/output functions.These functions are used to permit the transfer  of information between the computer and the standard input/output device. The basic input/output functions  are `getchar`, `putchar`, `puts`, `scanf` and `printf`. The first two functions, `getchar` and `putchar`, are used to transfer single characters. The next function puts is used to output strings, and the last two functions, `scanf` and `printf`, permit the transfer of single characters, numerical values and strings.
+
+An input/output function can be accessed from anywhere within a program simply by writing the function name, followed by a list of arguments enclosed in parentheses. The arguments represent data items that are sent to the function. Some input/output functions do not require arguments, though the empty parentheses must still appear.
+#### _Example_
+	#include <stdio.h>
+	int main( ) {
+
+	   int c;
+
+	   printf( "Enter a value :");
+	   c = getchar( );
+
+	   printf( "\nYou entered: ");
+	   putchar( c );
+
+	   return 0;
+	}
+#### _Example_
+	$./a.out
+	Enter a value : this is test
+	You entered: t
+	
 [Benjamin Barona](https://github.com/benjamin-bar)
 
 [Efrain Matu](https://github.com/Efrack09)
+
+#### _Sources_
+[Reference 1](https://fresh2refresh.com/c-programming/c-tokens-identifiers-keywords/)
+[Reference 2](https://fresh2refresh.com/c-programming/c-variables/)
+[Reference 3](https://fresh2refresh.com/c-programming/c-data-types/)
+[Reference 4](https://fresh2refresh.com/c-programming/c-operators-expressions/)
+[Reference 5](https://www.tutorialspoint.com/cprogramming/index.htm)
