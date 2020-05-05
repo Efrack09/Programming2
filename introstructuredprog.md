@@ -67,6 +67,7 @@ unsigned | void | volatile
 while | packed |
 
 | auto       | else         | l0ng  |
+| ------------- |:-------------:| -----:|
 | break      | enum | register |
 | case      | extern     |  typedef |
 | char | float     |    short |
