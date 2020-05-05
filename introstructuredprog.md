@@ -109,6 +109,20 @@ In a mixed type expression, a subtype s will be converted into a supertype t or 
     if (d > i)      d = i;
     if (i > l)      l = i;
     if (d == l)     d *= 2;
+## _Operators of structured_
+## Conditional
+An operator in a programming language is a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result. This chapter will explain the concept of operators and it will take you through the important arithmetic and relational operators available in C, Java, and Python.
+
+Computer programs are widely used for mathematical calculations. We can write a computer program which can do simple calculation like adding two numbers (2 + 3) and we can also write a program, which can solve a complex equation like P(x) = x4 + 7x3 - 5x + 9. If you have been even a poor student, you must be aware that in first expression 2 and 3 are operands and + is an operator. Similar concepts exist in Computer Programming.
+#### Example with 10 and 20
+
+| Operator       | Description           | Example  |
+| ------------- |:-------------:| -----:|
+| +    | Adds two operands | A + B will give 30 |
+| -     | Multiplies both operands |   A - B will give -10 |
+| * | Divides numerator by de-numerator |    A * B will give 200 |
+| / | Divides numerator by de-numerator | B / A will give 2 | 
+| % | This gives remainder of an integer division | B % A will give 0 |
 
 [Benjamin Barona](https://github.com/benjamin-bar)
 
