@@ -243,8 +243,11 @@ An input/output function can be accessed from anywhere within a program simply b
 
 #### _Sources_
 [Reference 1](https://fresh2refresh.com/c-programming/c-tokens-identifiers-keywords/)
+
 [Reference 2](https://fresh2refresh.com/c-programming/c-variables/)
+
 [Reference 3](https://fresh2refresh.com/c-programming/c-operators-expressions/)
+
 [Reference 4](https://www.tutorialspoint.com/cprogramming/index.htm)
 
 [Benjamin Barona](https://github.com/benjamin-bar)
