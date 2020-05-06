@@ -1,5 +1,4 @@
 # Introduction to Structured Programming <h1>
-# Introduction to structured programming <h3>
 ## What is "programming paradigm"? <h2>
 A programming paradigm is the style in which someone programs, they serve as a way to classify programming languages based on their features. They are separated in two main cathegories: Imperative and Declarative.  <br>
 **Imperative:**  <br>
