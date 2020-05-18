@@ -59,7 +59,7 @@ mandatory.
    evaluates to zero. When you perform comparison with the relational operators, 
   the operator will return 1 if the comparison is true, or 0 if the comparison is false.
   
-  ### Simple Conditional
+ ### Simple Conditional
 
 The expression part can be any expression that evaluates a value, and it must be enclosed in parenthases.
 * The best use is to make the expression a Boolean expression, which is an operation that evaluates to true or false
@@ -67,8 +67,8 @@ The expression part can be any expression that evaluates a value, and it must be
     * an expression that evaluates to 0 is considered false
     * an expression that evaluates to anything else (non-zero) is considered true
 
-#### Double Conditional
-## If... else statement
+## Double Conditional
+#### If... else statement
  When if statement is false can to execute other intruction, 
  The "else" statement effectively says that whatever code after it (whether 
   a single line or code between brackets) is executed if the if statement is false
