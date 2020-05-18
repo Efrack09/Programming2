@@ -73,10 +73,10 @@ The expression part can be any expression that evaluates a value, and it must be
  The "else" statement effectively says that whatever code after it (whether 
   a single line or code between brackets) is executed if the if statement is false
  
-#### Break and Continue
+## Break and Continue
 These statements can be used to alter the flow of control in loops, although they are not specifically needed. (Any loop can be made to exit by writing an appropiate test expression)
 
-## Break
+#### Break
 This cause immediate exit from any loops (as well as from switch blocks
 
 Example: 
@@ -89,7 +89,7 @@ Example:
         printf("%d", i);
     }
     
-#### Continue
+## Continue
 When used in a loop, this statement causes the current loop iteration to end.
 * In a while or *do.. while* loop, the rest of the body is skipped, and execution moves on to the test condition
 * In a for loop, the rest of the loop body is skipped, and execution moves on to the iterative statement
