@@ -39,4 +39,11 @@ In short, a repeating do while statement allows you to repeatedly execute (one o
 
       return 0;
       }
-
+      
+#### Selective Control Structures
+Used for decisions -- choosing between 2 or more alternative paths.
+* If statements 
+    * Simple conditional 
+    * Double Conditional
+    * Multiple Conditional 
+    * Nested Conditional
